@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:stylish/screens/home/home_screen.dart';
 import 'package:stylish/screens/login_screen.dart';
 import 'package:flutter/material.dart';
@@ -138,7 +136,7 @@ class _RegScreenState extends State<RegScreen> {
                       },
                     ),
             
-                    SizedBox(height: 40),
+                    SizedBox(height: 30),
                     InkWell(
                       onTap: () {
                         if(_formField.currentState!.validate()){
